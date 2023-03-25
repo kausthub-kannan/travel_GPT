@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiMessageCircle } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import {Home, Signup,Login,EditProfile, Recommendation} from './pages';
+import {Home, Signup,Login,EditProfile, Recommendation, HistoryDetails,History,Dashboard} from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -71,6 +71,9 @@ const App = () => {
                 <Route path="/signup" element={(<Signup />)} />                
                 <Route path="/EditProfile" element={<EditProfile />} />
                 <Route path="/Recommendation" element={<Recommendation />} />
+                <Route path="/HistoryDetails" element={<HistoryDetails />} />
+                <Route path="/History" element={<History />} />
+                <Route path="/Dashboard" element={<Dashboard />} />
 
               </Routes>
             </div>

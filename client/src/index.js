@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+// import ChatSupport from './ChatSupport';
 import './index.css';
 import App from './App';
 import { ContextProvider } from './contexts/ContextProvider';
